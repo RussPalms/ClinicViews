@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./frontend/src/index.js --output-path ./frontend/static/frontend/public/main.js",
+    "dev": "webpack  --config webpack.config.js --watch",
     "build": "webpack --mode production ./frontend/src/index.js --output-path ./frontend/static/frontend/public/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
