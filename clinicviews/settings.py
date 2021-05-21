@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'frontend',
     'accounts',
     'address',
-    'phonenumber_field',
+    # 'phonenumber_field',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

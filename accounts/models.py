@@ -1,7 +1,7 @@
 from django.db import models
 from address.models import AddressField
 from django.db.models.deletion import CASCADE
-from phonenumber_field.modelfields import PhoneNumberField
+# from phonenumber_field.modelfields import PhoneNumberField
 
 
 class Account(models.Model):
@@ -18,8 +18,8 @@ class Account(models.Model):
     email = models.EmailField()
     username = models.CharField(max_length=50)
     home_address = AddressField(related_name='+', blank=True, null=True)
-    home_phone = PhoneNumberField()
-    cell_phone = PhoneNumberField()
+    # home_phone = PhoneNumberField()
+    # cell_phone = PhoneNumberField()
 
 class AccountOptions(models.Model):
     account = models.ForeignKey(Account, on_delete=CASCADE)
