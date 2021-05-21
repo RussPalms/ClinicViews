@@ -1,0 +1,7 @@
+-> pip install django-address
+-> pip install validate_email
+-> pip install django-phonenumber-field
+-> pip install djangorestframework
+-> npm init -y
+-> npm i --save-dev @babel/core @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
+-> npm i axios lodash lodash-es react react-dom react-router-dom serialize-javascript   
